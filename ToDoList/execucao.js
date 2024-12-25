@@ -35,3 +35,6 @@ botaoAdicionar.addEventListener('click', () => {
         alert('Por favor, insira uma tarefa.');
     }
 });
+
+
+//testando commit!
