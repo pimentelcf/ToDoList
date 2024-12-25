@@ -1,0 +1,86 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Cabeçalho */
+h1 {
+    margin-bottom: 20px;
+    color: #0077cc;
+}
+
+/* Input e botão */
+#tarefaInput {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    outline: none;
+}
+
+#tarefaInput:focus {
+    border-color: #0077cc;
+    box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+}
+
+#adicionarBtn {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0077cc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#adicionarBtn:hover {
+    background-color: #005fa3;
+}
+
+/* Lista de tarefas */
+#minhaLista {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 300px;
+}
+
+#minhaLista li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão Remover */
+#minhaLista li button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #e63946;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#minhaLista li button:hover {
+    background-color: #c62828;
+}
